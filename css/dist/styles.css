@@ -1,0 +1,336 @@
+/*---- Pantones*/
+/* Dev-style */
+/* Default colors */
+/* California colors */
+/* Florida colors */
+/* New york colors */
+/* Texas colors */
+/* Alabama colors */
+/* Georgia colors */
+/* New Mexico colors */
+/* Arizona colors */
+/* screen size*/
+@media (min-width: 600px) and (max-width: 1440px) {
+  /* Three columns layout*/
+  .one-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .two-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .three-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px 20px;
+  }
+
+  .four-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+  }
+
+  /* Florida theme */
+  .chart-card-florida {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    background-color: #fff8cb;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .chart-card-florida .chart-card-header {
+    padding: 10px;
+    background-color: #66acfa;
+    border-radius: 10px 10px 0px 0px;
+    color: #d6eaff;
+    font-size: 24px;
+    text-align: center;
+  }
+  .chart-card-florida .canvas-container {
+    text-align: center;
+  }
+  .chart-card-florida .canvas-container .chart-card-content {
+    margin: 0px auto;
+    width: 100%;
+  }
+  .chart-card-florida .chart-card-footer {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #ffe5ae;
+    border-radius: 0px 0px 10px 10px;
+    color: #7a7a7a;
+    font-size: 14px;
+    font-style: italic;
+    text-align: justify;
+  }
+
+  /* New york theme */
+  .chart-card-new-york {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .chart-card-new-york .chart-card-header {
+    padding: 10px;
+    background-color: #496494;
+    border-radius: 10px 10px 0px 0px;
+    color: #e8e5e0;
+    font-size: 24px;
+    text-align: center;
+  }
+  .chart-card-new-york .canvas-container {
+    height: 200px;
+    text-align: center;
+  }
+  .chart-card-new-york .canvas-container .chart-card-content {
+    margin: 0px auto;
+    width: 100%;
+  }
+  .chart-card-new-york .chart-card-footer {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #7e7f8e;
+    border-radius: 0px 0px 10px 10px;
+    color: #f6f6f6;
+    font-size: 14px;
+    font-style: italic;
+    text-align: justify;
+  }
+
+  .chart-card-georgia {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    background-color: #fdfdef;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .chart-card-georgia .chart-card-header {
+    padding: 10px;
+    background-color: #c1d42f;
+    border-radius: 10px 10px 0px 0px;
+    color: #002d56;
+    font-size: 24px;
+    text-align: center;
+  }
+  .chart-card-georgia .canvas-container {
+    height: 200px;
+    text-align: center;
+  }
+  .chart-card-georgia .canvas-container .chart-card-content {
+    margin: 0px auto;
+    width: 100%;
+  }
+  .chart-card-georgia .chart-card-footer {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #788347;
+    border-radius: 0px 0px 10px 10px;
+    color: #ffffff;
+    font-size: 14px;
+    font-style: italic;
+    text-align: justify;
+  }
+
+  .chart-card-default {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    background-color: #f4fafd;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .chart-card-default .chart-card-header {
+    padding: 10px;
+    background-color: #7795b6;
+    border-radius: 10px 10px 0px 0px;
+    color: #fef6e7;
+    font-size: 24px;
+    text-align: center;
+  }
+  .chart-card-default .canvas-container {
+    height: 200px;
+    text-align: center;
+  }
+  .chart-card-default .canvas-container .chart-card-content {
+    margin: 0px auto;
+    width: 100%;
+  }
+  .chart-card-default .chart-card-footer {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #5f6266;
+    border-radius: 0px 0px 10px 10px;
+    color: #e9e9e9;
+    font-size: 14px;
+    font-style: italic;
+    text-align: justify;
+  }
+
+  .chart-card-california {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    background-color: #eff5f5;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .chart-card-california .chart-card-header {
+    padding: 10px;
+    background-color: #e4970d;
+    border-radius: 10px 10px 0px 0px;
+    color: #000505;
+    font-size: 24px;
+    text-align: center;
+  }
+  .chart-card-california .canvas-container {
+    height: 200px;
+    text-align: center;
+  }
+  .chart-card-california .canvas-container .chart-card-content {
+    margin: 0px auto;
+    width: 100%;
+  }
+  .chart-card-california .chart-card-footer {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #86cbf3;
+    border-radius: 0px 0px 10px 10px;
+    color: #525252;
+    font-size: 14px;
+    font-style: italic;
+    text-align: justify;
+  }
+
+  .chart-card-texas {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .chart-card-texas .chart-card-header {
+    padding: 10px;
+    background-color: #002868;
+    border-radius: 10px 10px 0px 0px;
+    color: #e8e5e0;
+    font-size: 24px;
+    text-align: center;
+  }
+  .chart-card-texas .canvas-container {
+    height: 200px;
+    text-align: center;
+  }
+  .chart-card-texas .canvas-container .chart-card-content {
+    margin: 0px auto;
+    width: 100%;
+  }
+  .chart-card-texas .chart-card-footer {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #bf0a30;
+    border-radius: 0px 0px 10px 10px;
+    color: #f6f6f6;
+    font-size: 14px;
+    font-style: italic;
+    text-align: justify;
+  }
+
+  .chart-card-alabama {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    background-color: #f7f0e0;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .chart-card-alabama .chart-card-header {
+    padding: 10px;
+    background-color: #7c5d5a;
+    border-radius: 10px 10px 0px 0px;
+    color: #f8f4e6;
+    font-size: 24px;
+    text-align: center;
+  }
+  .chart-card-alabama .canvas-container {
+    height: 200px;
+    text-align: center;
+  }
+  .chart-card-alabama .canvas-container .chart-card-content {
+    margin: 0px auto;
+    width: 100%;
+  }
+  .chart-card-alabama .chart-card-footer {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #5bb2b5;
+    border-radius: 0px 0px 10px 10px;
+    color: #f8f4e6;
+    font-size: 14px;
+    font-style: italic;
+    text-align: justify;
+  }
+
+  .chart-card-new-mexico {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    background-color: #fff6cc;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .chart-card-new-mexico .chart-card-header {
+    padding: 10px;
+    background-color: #ffd700;
+    border-radius: 10px 10px 0px 0px;
+    color: #002d56;
+    font-size: 24px;
+    text-align: center;
+  }
+  .chart-card-new-mexico .canvas-container {
+    height: 200px;
+    text-align: center;
+  }
+  .chart-card-new-mexico .canvas-container .chart-card-content {
+    margin: 0px auto;
+    width: 100%;
+  }
+  .chart-card-new-mexico .chart-card-footer {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #bf0a30;
+    border-radius: 0px 0px 10px 10px;
+    color: #ffffff;
+    font-size: 14px;
+    font-style: italic;
+    text-align: justify;
+  }
+
+  .chart-card-arizona {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    background-color: #fff5e4;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .chart-card-arizona .chart-card-header {
+    padding: 10px;
+    background-color: #e5601a;
+    border-radius: 10px 10px 0px 0px;
+    color: #bfc1c3;
+    font-size: 24px;
+    text-align: center;
+  }
+  .chart-card-arizona .canvas-container {
+    height: 200px;
+    text-align: center;
+  }
+  .chart-card-arizona .canvas-container .chart-card-content {
+    margin: 0px auto;
+    width: 100%;
+  }
+  .chart-card-arizona .chart-card-footer {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #bb580d;
+    border-radius: 0px 0px 10px 10px;
+    color: #252525;
+    font-size: 14px;
+    font-style: italic;
+    text-align: justify;
+  }
+}

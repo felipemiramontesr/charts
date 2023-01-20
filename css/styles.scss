@@ -1,0 +1,406 @@
+/*---- Pantones*/
+/* Dev-style */
+/* Default colors */
+$background-color-california: #eff5f5;
+$header-background-color-california: #e4970d;
+$footer-background-color-california: #86cbf3;
+$font-color-1-california: #000505;
+$font-color-2-california: #525252;
+$border-color-1-california: #d0dff5;
+
+/* California colors */
+$background-color-default: #f4fafd;
+$header-background-color-default: #7795b6;
+$footer-background-color-default: #5f6266;
+$font-color-1-default: #fef6e7;
+$font-color-2-default: #e9e9e9;
+$border-color-1-default: #d0dff5;
+
+/* Florida colors */
+$background-color-florida: #fff8cb;
+$header-background-color-florida: #66acfa;
+$footer-background-color-florida: #ffe5ae;
+$font-color-1-florida: #d6eaff;
+$font-color-2-florida: #7a7a7a;
+$border-color-1-florida: #d0dff5;
+
+/* New york colors */
+$background-color-new-york: #f6f6f6;
+$header-background-color-new-york: #496494;
+$footer-background-color-new-york: #7e7f8e;
+$font-color-1-new-york: #e8e5e0;
+$font-color-2-new-york: #f6f6f6;
+$border-color-1-new-york: #d0dff5;
+
+/* Texas colors */
+$background-color-texas: #ffffff;
+$header-background-color-texas: #002868;
+$footer-background-color-texas: #bf0a30;
+$font-color-1-texas: #e8e5e0;
+$font-color-2-texas: #f6f6f6;
+$border-color-1-texas: #d0dff5;
+
+/* Alabama colors */
+$background-color-alabama: #f7f0e0;
+$header-background-color-alabama: #7c5d5a;
+$footer-background-color-alabama: #5bb2b5;
+$font-color-1-alabama: #f8f4e6;
+$font-color-2-alabama: #f8f4e6;
+$border-color-1-alabama: #d0dff5;
+
+/* Georgia colors */
+$background-color-georgia: #fdfdef;
+$header-background-color-georgia: #c1d42f;
+$footer-background-color-georgia: #788347;
+$font-color-1-georgia: #002d56;
+$font-color-2-georgia: #ffffff;
+$border-color-1-georgia: #d0dff5;
+
+/* New Mexico colors */
+$background-color-new-mexico: #fff6cc;
+$header-background-color-new-mexico: #ffd700;
+$footer-background-color-new-mexico: #bf0a30;
+$font-color-1-new-mexico: #002d56;
+$font-color-2-new-mexico: #ffffff;
+$border-color-1-new-mexico: #d0dff5;
+
+/* Arizona colors */
+$background-color-arizona: #fff5e4;
+$header-background-color-arizona: #e5601a;
+$footer-background-color-arizona: #bb580d;
+$font-color-1-arizona: #bfc1c3;
+$font-color-2-arizona: #252525;
+$border-color-1-arizona: #d0dff5;
+
+/* screen size*/
+@media (min-width: 600px,) and (max-width: 1440px,) {
+  /* Three columns layout*/
+  .one-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .two-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .three-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px 20px;
+  }
+  .four-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+  }
+
+  /* Florida theme */
+  .chart-card-florida {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    background-color: $background-color-florida;
+    //border: 1px solid $border-color-1-florida;
+    border-radius: 10px;
+    padding: 10px;
+    .chart-card-header {
+      padding: 10px;
+      background-color: $header-background-color-florida;
+      border-radius: 10px 10px 0px 0px;
+      color: $font-color-1-florida;
+      font-size: 24px;
+      text-align: center;
+    }
+    .canvas-container {
+       text-align: center;
+      .chart-card-content {
+        margin: 0px auto;
+        width: 100%;
+      }
+    }
+    .chart-card-footer {
+      margin-top: 10px;
+      padding: 5px 10px;
+      background-color: $footer-background-color-florida;
+      border-radius: 0px 0px 10px 10px;
+      color: $font-color-2-florida;
+      font-size: 14px;
+      font-style: italic;
+      text-align: justify;
+    }
+  }
+
+  /* New york theme */
+
+  .chart-card-new-york {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    background-color: $background-color-new-york;
+    //border: 1px solid $border-color-1-new-york;
+    border-radius: 10px;
+    padding: 10px;
+    .chart-card-header {
+      padding: 10px;
+      background-color: $header-background-color-new-york;
+      border-radius: 10px 10px 0px 0px;
+      color: $font-color-1-new-york;
+      font-size: 24px;
+      text-align: center;
+    }
+    .canvas-container {
+      height: 200px;
+      text-align: center;
+      .chart-card-content {
+        margin: 0px auto;
+        width: 100%;
+      }
+    }
+    .chart-card-footer {
+      margin-top: 10px;
+      padding: 5px 10px;
+      background-color: $footer-background-color-new-york;
+      border-radius: 0px 0px 10px 10px;
+      color: $font-color-2-new-york;
+      font-size: 14px;
+      font-style: italic;
+      text-align: justify;
+    }
+  }
+
+  .chart-card-georgia {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    background-color: $background-color-georgia;
+    //border: 1px solid $border-color-1-georgia;
+    border-radius: 10px;
+    padding: 10px;
+    .chart-card-header {
+      padding: 10px;
+      background-color: $header-background-color-georgia;
+      border-radius: 10px 10px 0px 0px;
+      color: $font-color-1-georgia;
+      font-size: 24px;
+      text-align: center;
+    }
+    .canvas-container {
+      height: 200px;
+      text-align: center;
+      .chart-card-content {
+        margin: 0px auto;
+        width: 100%;
+      }
+    }
+    .chart-card-footer {
+      margin-top: 10px;
+      padding: 5px 10px;
+      background-color: $footer-background-color-georgia;
+      border-radius: 0px 0px 10px 10px;
+      color: $font-color-2-georgia;
+      font-size: 14px;
+      font-style: italic;
+      text-align: justify;
+    }
+  }
+
+  .chart-card-default {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    background-color: $background-color-default;
+    //border: 1px solid $border-color-1-default;
+    border-radius: 10px;
+    padding: 10px;
+    .chart-card-header {
+      padding: 10px;
+      background-color: $header-background-color-default;
+      border-radius: 10px 10px 0px 0px;
+      color: $font-color-1-default;
+      font-size: 24px;
+      text-align: center;
+    }
+    .canvas-container {
+      height: 200px;
+      text-align: center;
+      .chart-card-content {
+        margin: 0px auto;
+        width: 100%;
+      }
+    }
+    .chart-card-footer {
+      margin-top: 10px;
+      padding: 5px 10px;
+      background-color: $footer-background-color-default;
+      border-radius: 0px 0px 10px 10px;
+      color: $font-color-2-default;
+      font-size: 14px;
+      font-style: italic;
+      text-align: justify;
+    }
+  }
+
+  .chart-card-california {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    background-color: $background-color-california;
+    //border: 1px solid $border-color-1-california;
+    border-radius: 10px;
+    padding: 10px;
+    .chart-card-header {
+      padding: 10px;
+      background-color: $header-background-color-california;
+      border-radius: 10px 10px 0px 0px;
+      color: $font-color-1-california;
+      font-size: 24px;
+      text-align: center;
+    }
+    .canvas-container {
+      height: 200px;
+      text-align: center;
+      .chart-card-content {
+        margin: 0px auto;
+        width: 100%;
+      }
+    }
+    .chart-card-footer {
+      margin-top: 10px;
+      padding: 5px 10px;
+      background-color: $footer-background-color-california;
+      border-radius: 0px 0px 10px 10px;
+      color: $font-color-2-california;
+      font-size: 14px;
+      font-style: italic;
+      text-align: justify;
+    }
+  }
+
+  .chart-card-texas {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    background-color: $background-color-texas;
+    //border: 1px solid $border-color-1-texas;
+    border-radius: 10px;
+    padding: 10px;
+    .chart-card-header {
+      padding: 10px;
+      background-color: $header-background-color-texas;
+      border-radius: 10px 10px 0px 0px;
+      color: $font-color-1-texas;
+      font-size: 24px;
+      text-align: center;
+    }
+    .canvas-container {
+      height: 200px;
+      text-align: center;
+      .chart-card-content {
+        margin: 0px auto;
+        width: 100%;
+      }
+    }
+    .chart-card-footer {
+      margin-top: 10px;
+      padding: 5px 10px;
+      background-color: $footer-background-color-texas;
+      border-radius: 0px 0px 10px 10px;
+      color: $font-color-2-texas;
+      font-size: 14px;
+      font-style: italic;
+      text-align: justify;
+    }
+  }
+
+  .chart-card-alabama {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    background-color: $background-color-alabama;
+    //border: 1px solid $border-color-1-alabama;
+    border-radius: 10px;
+    padding: 10px;
+    .chart-card-header {
+      padding: 10px;
+      background-color: $header-background-color-alabama;
+      border-radius: 10px 10px 0px 0px;
+      color: $font-color-1-alabama;
+      font-size: 24px;
+      text-align: center;
+    }
+    .canvas-container {
+      height: 200px;
+      text-align: center;
+      .chart-card-content {
+        margin: 0px auto;
+        width: 100%;
+      }
+    }
+    .chart-card-footer {
+      margin-top: 10px;
+      padding: 5px 10px;
+      background-color: $footer-background-color-alabama;
+      border-radius: 0px 0px 10px 10px;
+      color: $font-color-2-alabama;
+      font-size: 14px;
+      font-style: italic;
+      text-align: justify;
+    }
+  }
+
+  .chart-card-new-mexico {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    background-color: $background-color-new-mexico;
+    //border: 1px solid $border-color-1-new-mexico;
+    border-radius: 10px;
+    padding: 10px;
+    .chart-card-header {
+      padding: 10px;
+      background-color: $header-background-color-new-mexico;
+      border-radius: 10px 10px 0px 0px;
+      color: $font-color-1-new-mexico;
+      font-size: 24px;
+      text-align: center;
+    }
+    .canvas-container {
+      height: 200px;
+      text-align: center;
+      .chart-card-content {
+        margin: 0px auto;
+        width: 100%;
+      }
+    }
+    .chart-card-footer {
+      margin-top: 10px;
+      padding: 5px 10px;
+      background-color: $footer-background-color-new-mexico;
+      border-radius: 0px 0px 10px 10px;
+      color: $font-color-2-new-mexico;
+      font-size: 14px;
+      font-style: italic;
+      text-align: justify;
+    }
+  }
+
+  .chart-card-arizona {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    background-color: $background-color-arizona;
+    //border: 1px solid $border-color-1-arizona;
+    border-radius: 10px;
+    padding: 10px;
+    .chart-card-header {
+      padding: 10px;
+      background-color: $header-background-color-arizona;
+      border-radius: 10px 10px 0px 0px;
+      color: $font-color-1-arizona;
+      font-size: 24px;
+      text-align: center;
+    }
+    .canvas-container {
+      height: 200px;
+      text-align: center;
+      .chart-card-content {
+        margin: 0px auto;
+        width: 100%;
+      }
+    }
+    .chart-card-footer {
+      margin-top: 10px;
+      padding: 5px 10px;
+      background-color: $footer-background-color-arizona;
+      border-radius: 0px 0px 10px 10px;
+      color: $font-color-2-arizona;
+      font-size: 14px;
+      font-style: italic;
+      text-align: justify;
+    }
+  }
+}

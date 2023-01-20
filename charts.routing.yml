@@ -1,0 +1,7 @@
+charts.page:
+  path: "/charts-anywhere"
+  defaults:
+    _controller: '\Drupal\charts\Controller\pageController::createPage'
+    _title: "charts"
+  requirements:
+    _permission: "access content"

@@ -1,0 +1,12 @@
+charts-styles:
+  css:
+    theme:
+      css/styles.css: {}
+  js:
+    js/scripts.js: {}
+    https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.0.1/chart.umd.js:
+      { type: external, minified: true }
+    https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.0.1/chart.umd.min.js:
+      { type: external, minified: true }
+  dependencies:
+    - core/jquery

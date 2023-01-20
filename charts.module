@@ -1,0 +1,9 @@
+<?php 
+function charts_theme($existing, $type, $theme, $path) {
+  return [
+    'charts' => [
+      'variables' => ['data' => NULL, 'label' => NULL],
+    ],
+  ];
+}
+?>
